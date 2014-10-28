@@ -1,0 +1,37 @@
+﻿Classes store and organise your information
+	
+	Data Types: int, float, double, bool, char, structs. 
+		
+		using UnityEngine;
+using System.Collections;
+
+public class Condiments : MonoBehaviour
+{
+	public class Cond
+	{
+		public int ketchup;
+		public int mustard;
+		public int mayo;
+		
+		public Cond(int ket, int mus, int mayo)
+		{
+			ketchup = ket;
+			mustard = mus;
+			mayo = mayo;
+		}
+	}
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
