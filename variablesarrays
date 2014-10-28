@@ -1,0 +1,39 @@
+﻿
+Variables and Arrays
+	
+	Variable: A variable stores a data type so the program can manipulate it. 
+		
+		
+		Array : a way of storing a collection of data of the same type together. 
+		
+		
+		EX: 
+		
+using UnityEngine;
+using System.Collections;
+
+public class Arrays : MonoBehaviour
+{
+	
+	int [] myIntArray = new int [3];
+	
+	void start ()
+	{
+		
+		myIntArray[0] = 5; 
+		myIntArray[1] = 10; 
+		myIntArray[2] = 15; 
+		
+	}
+	
+	int myInt = 5;
+	
+}
+
+
+
+
+
+
+
+
